@@ -1,31 +1,32 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "David",
+    routeName: "david",
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        name: "Fire",
+        // imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        imageUrl: "https://i.ibb.co/0sL1gqZ/d-Riverdale-2-48.jpg",
         price: 25,
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+        name: "Zebra",
+        imageUrl: "https://i.ibb.co/nzCwC8F/d-Riverdale-2-22.jpg",
         price: 18,
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
+        name: "Kindom",
+        imageUrl: "https://i.ibb.co/xFK6J0c/d-6x09-sweater.jpg",
         price: 35,
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
+        name: "Icon",
+        imageUrl: "https://i.ibb.co/N63NmHj/d-6x10-icon.jpg",
         price: 25,
       },
       {
@@ -62,31 +63,31 @@ const SHOP_DATA = [
   },
   {
     id: 2,
-    title: "Sneakers",
-    routeName: "sneakers",
+    title: "Alexis",
+    routeName: "alexis",
     items: [
       {
         id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        name: "Skirt",
+        imageUrl: "https://i.ibb.co/Fqc6Tr8/a-chits.jpg",
         price: 220,
       },
       {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
+        name: "White Sweater",
+        imageUrl: "https://i.ibb.co/DLzL6c1/a-All-Rise-13.jpg",
         price: 280,
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        name: "Pearl",
+        imageUrl: "https://i.ibb.co/P6JqN1h/a-6x11-floral-dress.jpg",
         price: 110,
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        name: "One piece",
+        imageUrl: "https://i.ibb.co/1MLvfzC/a-ale.jpg",
         price: 160,
       },
       {
@@ -117,31 +118,31 @@ const SHOP_DATA = [
   },
   {
     id: 3,
-    title: "Jackets",
-    routeName: "jackets",
+    title: "Moira",
+    routeName: "moira",
     items: [
       {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
+        name: "Leather Dress",
+        imageUrl: "https://i.ibb.co/HnQYRgg/moira-leather.jpg",
         price: 125,
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+        name: "Black Suit",
+        imageUrl: "https://i.ibb.co/2nJpq78/m-The-Bold-Type-9.jpg",
         price: 90,
       },
       {
         id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        name: "Square Pants",
+        imageUrl: "https://i.ibb.co/NxB9ntH/m-blazer-4.jpg",
         price: 90,
       },
       {
         id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
+        name: "Mini Skirt",
+        imageUrl: "https://i.ibb.co/cXF4Cz7/m-bird-skirt.jpg",
         price: 165,
       },
       {
@@ -154,8 +155,8 @@ const SHOP_DATA = [
   },
   {
     id: 4,
-    title: "Womens",
-    routeName: "womens",
+    title: "Johnny",
+    routeName: "johnny",
     items: [
       {
         id: 23,
@@ -203,31 +204,32 @@ const SHOP_DATA = [
   },
   {
     id: 5,
-    title: "Mens",
-    routeName: "mens",
+    title: "Twyla",
+    routeName: "twyla",
     items: [
       {
         id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        name: "Camo Red Vest",
+        imageUrl: "https://i.ibb.co/jyGJJK9/t.png",
         price: 325,
       },
       {
         id: 31,
         name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        imageUrl: "https://i.ibb.co/4WpWcjT/t-twyla-schitts-creek-quotes.jpg",
         price: 20,
       },
       {
         id: 32,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        name: "Dark Green Longsleeve",
+        imageUrl:
+          "https://i.ibb.co/KmtmX22/t-Schitts-Creek-Sarah-Levy-plays-Waitress-Twyla-Sands.jpg",
         price: 25,
       },
       {
         id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        name: "Floral Shirt",
+        imageUrl: "https://i.ibb.co/THqXm0r/t-SC-bio-Sarah-large.jpg",
         price: 25,
       },
       {
